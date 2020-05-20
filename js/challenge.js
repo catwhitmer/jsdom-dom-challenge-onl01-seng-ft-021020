@@ -68,4 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector("#comment-form").reset();
     });
     
+    
+    
 });
