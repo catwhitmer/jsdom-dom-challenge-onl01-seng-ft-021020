@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1000); 
 
  
-    let love = document.getElementById("<3")
+
     let pause = document.getElementById("pause")
     let likes = document.querySelector(".likes")
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let pause_id = document.getElementById("pause")
     let minus_id = document.getElementById("-")
     let plus_id = document.getElementById("+")
-    let heart = document.getElementById("<3")
+    let love = document.getElementById("<3")
     let list_id = document.getElementById("list")
     let comment_id = document.getElementsByTagName("form")[0]
         
