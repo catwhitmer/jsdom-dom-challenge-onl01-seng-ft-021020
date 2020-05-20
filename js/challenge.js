@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let likes = document.querySelector(".likes")
 
     let submitBtn = document.querySelector("#submit")
-    let commentList = document.querySelector("#list")
+ 
     
    
     
