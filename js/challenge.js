@@ -14,8 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let submitBtn = document.querySelector("#submit")
     let commentList = document.querySelector("#list")
     
-    
-    
+    let counter_id = document.getElementById("counter")
+    let pause_id = document.getElementById("pause")
+    let minus_id = document.getElementById("-")
+    let plus_id = document.getElementById("+")
+    let heart_id = document.getElementById("<3")
+    let list_id = document.getElementById("list")
+    let comment_id = document.getElementsByTagName("form")[0]
+        
 
     
     
