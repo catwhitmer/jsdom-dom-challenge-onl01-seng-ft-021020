@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         counter.innerText++; 
     }, 1000); 
 
-    let minus = document.getElementById("-")
-    let plus = document.getElementById("+")
+ 
     let love = document.getElementById("<3")
     let pause = document.getElementById("pause")
     let likes = document.querySelector(".likes")
