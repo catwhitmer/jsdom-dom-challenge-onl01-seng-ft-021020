@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let submitBtn = document.querySelector("#submit")
     let commentList = document.querySelector("#list")
     
+    
+    
+    
+    
     minus.addEventListener("click", function(e){
         counter.innerText--;
     });
