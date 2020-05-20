@@ -45,10 +45,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
     
-    love.addEventListener("click", function(e){
-        let obj = document.getElementById(`${counter.innerText}`);
-        obj ? obj.children[0].innerText++ : 
-        likes.innerHTML += `<li id=${counter.innerText}>${counter.innerText} is liked <span id=${counter.innerText}>1</span> times.</li>`
+   heart_id.addEventListener("click", function(){
+      let like = document.querySelector(".likes")
+    
+      if(document.getElementById(`Li${counter}`) == null){
+        let li = document.createElement("li");
+        li.setAttribute("id", `Li${counter}`)
+        li.innerHTML = `${counter} have this many likes:1`
+        like.appendChild(li)
+      }
+      else {
+        let li = document.getElementById(`Li${counter}`)
+        let splitted = parseInt(li.innerHTML.split(":")[1]) + 1
+        li.innerHTML = `${counter} have this many likes:${splitted}`
+        like.appendChild(li)
+      }
     });
     
     submitBtn.addEventListener("click", function(e){
