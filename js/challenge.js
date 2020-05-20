@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let love = document.getElementById("<3")
     let list_id = document.getElementById("list")
     let comment_id = document.getElementsByTagName("form")[0]
-        
     let likes = document.querySelector(".likes")
     let submitBtn = document.querySelector("#submit")
  
