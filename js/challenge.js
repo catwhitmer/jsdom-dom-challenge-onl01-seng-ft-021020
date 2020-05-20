@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1000); 
 
     let pause = document.getElementById("pause")
-    let minus_id = document.getElementById("-")
-    let plus_id = document.getElementById("+")
+    let minus = document.getElementById("-")
+    let plus = document.getElementById("+")
     let love = document.getElementById("<3")
-    let list_id = document.getElementById("list")
-    let comment_id = document.getElementsByTagName("form")[0]
+    let list = document.getElementById("list")
+    let comment = document.getElementsByTagName("form")[0]
     let likes = document.querySelector(".likes")
     let submitBtn = document.querySelector("#submit")
  
