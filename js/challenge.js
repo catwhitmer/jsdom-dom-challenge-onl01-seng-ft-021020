@@ -14,14 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let commentList = document.querySelector("#list")
     
    
-    let pause_id = document.getElementById("pause")
-    let minus_id = document.getElementById("-")
-    let plus_id = document.getElementById("+")
-    let love = document.getElementById("<3")
-    let list_id = document.getElementById("list")
-    let comment_id = document.getElementsByTagName("form")[0]
-        
-
+    
     
     
     
