@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let plus_id = document.getElementById("+")
     let love = document.getElementById("<3")
     let list_id = document.getElementById("list")
-    let comment = document.getElementsByTagName("form")[0]
+    let comment_id = document.getElementsByTagName("form")[0]
     let submitBtn = document.querySelector("#submit")
  
     minus.addEventListener("click", function(e){
