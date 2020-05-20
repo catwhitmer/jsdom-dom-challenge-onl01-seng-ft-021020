@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
     
-   heart_id.addEventListener("click", function(){
+   love.addEventListener("click", function(){
       let like = document.querySelector(".likes")
     
       if(document.getElementById(`Li${counter}`) == null){
