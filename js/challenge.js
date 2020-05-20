@@ -14,15 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let submitBtn = document.querySelector("#submit")
     let commentList = document.querySelector("#list")
     
-  
-
-
-
-let heart_id = document.getElementById("<3")
-let list_id = document.getElementById("list")
-let comment_id = document.getElementsByTagName("form")[0]
-    
-    
     minus.addEventListener("click", function(e){
         counter.innerText--;
     });
