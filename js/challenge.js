@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
  
 
-    let pause = document.getElementById("pause")
+    
     let likes = document.querySelector(".likes")
 
     let submitBtn = document.querySelector("#submit")
