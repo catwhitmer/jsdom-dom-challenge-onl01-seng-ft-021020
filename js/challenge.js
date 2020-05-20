@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let submitBtn = document.querySelector("#submit")
     let commentList = document.querySelector("#list")
     
+    
+    
 
     
     
