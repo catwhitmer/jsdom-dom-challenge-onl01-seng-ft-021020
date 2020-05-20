@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         counter.innerText++; 
     }, 1000); 
 
-    let pause_id = document.getElementById("pause")
+    let pause = document.getElementById("pause")
     let minus_id = document.getElementById("-")
     let plus_id = document.getElementById("+")
     let love = document.getElementById("<3")
