@@ -68,6 +68,15 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector("#comment-form").reset();
     });
     
-    
+    comment_id.addEventListener("submit",function(a){
+      a.preventDefault()
+      let b=this.children[0]
+      let c=b.value;
+      b.value="";
+      let d=document.querySelector(".comments")
+      let e=document.createElement("p")
+      e.innerText=c
+      d.appendChild(e)
+})
     
 });
