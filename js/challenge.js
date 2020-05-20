@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     
    love.addEventListener("click", function(){
-      let like = document.querySelector(".likes")
+      let likes = document.querySelector(".likes")
     
       if(document.getElementById(`Li${counter}`) == null){
         let li = document.createElement("li");
