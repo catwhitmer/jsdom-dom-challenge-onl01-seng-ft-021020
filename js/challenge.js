@@ -1,18 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let counter = document.querySelector("#counter")
-    
-    let count = setInterval(function () {
-        counter.innerText++; 
-    }, 1000); 
 
-    let minus = document.getElementById("-")
-    let plus = document.getElementById("+")
-    let love = document.getElementById("<3")
-    let pause = document.getElementById("pause")
-    let likes = document.querySelector(".likes")
-
-    let submitBtn = document.querySelector("#submit")
-    let commentList = document.querySelector("#list")
     
     let counter_id = document.getElementById("counter")
     let pause_id = document.getElementById("pause")
